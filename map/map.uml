@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RewioGxWEeevzp5Fc-u4Mw" name="map">
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vu3s8GxWEeevzp5Fc-u4Mw" name="map">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iaXIIGxWEeevzp5Fc-u4Mw" name="23.715052867008904">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ac67AGxXEeevzp5Fc-u4Mw" name="120.65504272734381">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gVl-kGxXEeevzp5Fc-u4Mw" name="9">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SwYqgG8zEeeUl_I9EpChCg" name="AIzaSyAkm4zHeX_mNojWn4cqhC3Rq32xrNASwsw">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AEhOcGxYEeevzp5Fc-u4Mw" name="layer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZyPw4GxYEeevzp5Fc-u4Mw" name="layer1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nTuY4GxYEeevzp5Fc-u4Mw" name="易發生婦幼被害犯罪地點">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5O5lAGxYEeevzp5Fc-u4Mw" name="1FdZPqM9hngJ5hxFdYqtfqvt9YfXceErthdgmPKFI">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9rd28GxYEeevzp5Fc-u4Mw" name="3">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Oc_ism8zEeeUl_I9EpChCg" name="map" type="_Vu3s8GxWEeevzp5Fc-u4Mw" association="_Oc-UkG8zEeeUl_I9EpChCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OdAJwG8zEeeUl_I9EpChCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OdAJwW8zEeeUl_I9EpChCg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C311MGxZEeevzp5Fc-u4Mw" name="layer2">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LOnS4GxZEeevzp5Fc-u4Mw" name="消防隊">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ljq84GxZEeevzp5Fc-u4Mw" name="1-RWmR0SHBYpYRMmvXm1EfYUXV-9oPQR4z-sxjmi-">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_L8BygGxZEeevzp5Fc-u4Mw" name="2">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PEMsom8zEeeUl_I9EpChCg" name="map" type="_Vu3s8GxWEeevzp5Fc-u4Mw" association="_PELegG8zEeeUl_I9EpChCg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PENTsG8zEeeUl_I9EpChCg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PENTsW8zEeeUl_I9EpChCg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Oc-UkG8zEeeUl_I9EpChCg" memberEnd="_Oc_ism8zEeeUl_I9EpChCg _OdAJwm8zEeeUl_I9EpChCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Oc_isG8zEeeUl_I9EpChCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Oc_isW8zEeeUl_I9EpChCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OdAJwm8zEeeUl_I9EpChCg" name="layer1" type="_ZyPw4GxYEeevzp5Fc-u4Mw" association="_Oc-UkG8zEeeUl_I9EpChCg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PELegG8zEeeUl_I9EpChCg" memberEnd="_PEMsom8zEeeUl_I9EpChCg _PENTsm8zEeeUl_I9EpChCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PEMsoG8zEeeUl_I9EpChCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PEMsoW8zEeeUl_I9EpChCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PENTsm8zEeeUl_I9EpChCg" name="layer2" type="_C311MGxZEeevzp5Fc-u4Mw" association="_PELegG8zEeeUl_I9EpChCg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7VP_QHnGEeeD_t4R-ZTnlQ" name="layer3">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_E__mQHnHEeeD_t4R-ZTnlQ" name="警察局">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VViRUHnHEeeD_t4R-ZTnlQ" name="1sEj05k9ml9HWV1QnJkHtKN5EGW5SVIRAtw9MSL1J">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_62Nn8HnIEeeD_t4R-ZTnlQ" name="4">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KPb0sHnJEeeD_t4R-ZTnlQ" name="map" type="_Vu3s8GxWEeevzp5Fc-u4Mw" association="_KOeycHnJEeeD_t4R-ZTnlQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KPb0sXnJEeeD_t4R-ZTnlQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KPb0snnJEeeD_t4R-ZTnlQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KOeycHnJEeeD_t4R-ZTnlQ" memberEnd="_KPb0sHnJEeeD_t4R-ZTnlQ _KPb0s3nJEeeD_t4R-ZTnlQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KOeycXnJEeeD_t4R-ZTnlQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KOeycnnJEeeD_t4R-ZTnlQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KPb0s3nJEeeD_t4R-ZTnlQ" name="layer3" type="_7VP_QHnGEeeD_t4R-ZTnlQ" association="_KOeycHnJEeeD_t4R-ZTnlQ"/>
+  </packagedElement>
+</uml:Model>
